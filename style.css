@@ -1,0 +1,563 @@
+body {
+	background-color: rgb(246,246,246);
+}
+
+#wrapper {
+	background-image: url("images/tear-background.jpg");
+	background-image-size: cover;
+	background-repeat: no-repeat;
+	width: 1175px;
+	height: 5018px;
+	margin: 0 auto;
+	padding-top: 130px;
+	border: 1px solid rgba(203,206,206,1);
+}
+
+h1, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, p, li, td, a {
+	font-family: 'Oswald',sans-serif;
+}
+
+h2 {
+	font-family: 'Courier New',serif;
+	font-size: 72px;
+	letter-spacing: -1px;
+	word-spacing: -25px;
+	margin: 0 auto;
+	margin-left: 40px;
+}
+
+h1, h2, h3, h5, h6, h7, h8, h9, h10, h11, h12, h13, a {
+	text-transform: uppercase;
+}
+
+h1, h2, h3, h5, h4, h8, h9, h10, h11, h12, h13, p, li, td, a {
+	font-weight: 300;
+}
+
+.bold, h3, h7, h10 {
+	font-weight: 400;
+}
+
+h12 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 31px;
+	text-align: center;
+	display: inline;
+	letter-spacing: 6px;
+}
+
+h3 {
+	font-size: 23px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h4 {
+	font-size: 25px;
+	width: 900px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 22px;
+	margin-bottom: 22px;
+	line-height: 45px;
+}
+
+h5 {
+	font-size: 18px;
+	word-spacing: 3px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#logo {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.rectangle {
+	display: inline;
+	position: relative;
+	height: 45px;
+}
+
+.divider img {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#request-box {
+	width: 1175px;
+	height: 462px;
+	margin-top: 30px;
+	background-image: url("images/request-form-background.png");
+	background-repeat: no-repeat;
+}
+
+#request-box #column-left {
+	position: relative;
+	float: left;
+	width: 756px;
+}
+
+
+#request-box #column-left video {
+	height: 409px;
+	width: 730px;
+}
+
+#request-box #column-left video img {
+	height: 440px;
+	width: 756px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#request-box h5 {
+	width: 250px;
+	margin-left: 85px;
+	margin-bottom: 3px;
+	margin-top: 14px;
+	text-align: center;
+	font-weight: 300;
+}
+
+#request-box #column-right {
+	position: relative;
+	float: left;
+	width: 419px;
+	text-align: center;
+}
+
+#request-form {
+	width: 390px;
+	margin: 0 auto;
+	border-spacing: 18px;
+}
+form .infusion-field {
+	margin-top: 30px;
+
+}
+form .infusion-field label {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+form .infusion-field-input-container {
+	width: 240px;
+	height: 25px;
+	text-align: left;
+	float: right;
+	margin-right: 40px;
+	border: 1px solid black;
+}
+
+form .infusion-field select {
+	width: 245px;
+	height: 25px;
+	text-align: center;
+	padding-top: 2px;
+	float: right;
+	margin-right: 40px;
+	border: 1px solid black;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	background-color: white;
+}
+
+form .infusion-submit input {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 30px;
+	color: rgba(236,236,236,1);
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 24px;
+	text-transform: uppercase;
+	width: 150px;
+	height: 38px;
+	background-color: rgb(3,113,153);
+	border: 2px solid rgba(236,236,236,1);
+	outline: 2px solid rgb(3,3,3);
+}
+#watch-more {
+	position: relative;
+	width: 1175px;
+	padding-left: 40px;
+	height: 280px;
+	margin-top: -20px;
+}
+
+#watch-more h5 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#watch-more #column-left {
+	float: left;
+	width: 650px;
+	margin-right: 50px;
+}
+
+#watch-more-box {
+	position: relative;
+	display: block;
+	height:97px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+
+#watch-more-box img {
+	float: left;
+	margin-right: 10px;
+}
+
+#watch-more-box video {
+	width: 173px;
+	max-height: 97px;
+	float: left;
+	margin-right: 10px;
+}
+
+.video-title {
+	margin-bottom: -10px;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.video-description {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+#watch-more #column-right {
+	position: relative;
+	float: left;
+	width: 310px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+#button-learnabout {
+	position: relative;
+	color: rgba(236,236,236,1);
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 38px;
+	text-transform: uppercase;
+	width: 310px;
+	height: 55px;
+	background-color: rgb(3,113,153);
+	border: 5px solid rgba(236,236,236,1);
+	outline: 5px solid rgb(2,68,92);
+	text-align: center;
+}
+
+#button-takecourse {
+	position: relative;
+	color: rgba(236,236,236,1);
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 38px;
+	text-transform: uppercase;
+	width: 310px;
+	height: 55px;
+	background-color: rgb(255,120,0);
+	border: 5px solid rgba(236,236,236,1);
+	outline: 5px solid rgb(176,85,3);
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#benefits-section {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#benefits-section h6 {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	color: rgb(3,101,138);
+	font-size: 47px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+#benefits-box {
+	position: relative;
+	margin: 0 auto;
+	width: 1153px;
+	height: 868px;
+	background-image: url("images/benefits-box-background.png");
+}
+
+#benefits-box #column-left {
+	position: relative;
+	float: left;
+	width: 450px;
+	padding-left: 100px;
+}
+
+#benefits-box #column-right {
+	position: relative;
+	float: left;
+	width: 450px;
+	padding-left: 50px;
+}
+
+#benefits-box p {
+	margin: 0;
+	word-spacing: 2px;
+}
+#benefits-box .professionals {
+	color: white;
+	font-weight: 300;
+	font-size: 40px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#benefits-box .sub-professionals {
+	color: white;
+	font-weight: 300;
+	font-size: 18px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#benefits-box .traders {
+	color: rgb(47,47,47);
+	font-weight: 300;
+	font-size: 40px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#benefits-box .sub-traders {
+	color: rgb(47,47,47);
+	font-weight: 300;
+	font-size: 18px;
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#benefits-box ul {
+	text-align: left;
+	margin-top: 30px;
+}
+
+#benefits-box ul li {
+	margin-top: 23px;
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#button-takecourse-large {
+	position: relative;
+	margin: 0 auto;
+	color: rgba(236,236,236,1);
+	font-family: "Oswald", sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 50px;
+	text-transform: uppercase;
+	width: 390px;
+	height: 65px;
+	background-color: rgb(255,120,0);
+	border: 5px solid rgba(236,236,236,1);
+	outline: 5px solid rgb(176,85,3);
+	margin-top: -40px;
+	text-align: center;
+}
+
+#feature {
+	position: relative;
+	margin-left: 50px;
+	height: 150px;
+	margin-top: -80px;
+
+}	
+
+#feature img {
+	float: left;
+	margin-right: 30px;
+}
+
+#feature h6 {
+	font-size: 50px;
+	font-weight: 400;
+	margin-bottom: 0px;
+	letter-spacing: 1px;
+}
+
+#feature .feature-description {
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 0px;
+	letter-spacing: 1px;
+}
+
+#schedule {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	height: 1075px;
+	background-image: url('images/schedule-background.png');
+	background-repeat: no-repeat;
+	padding-top: 5px;
+}
+
+
+#day-by-day ul {
+	position: relative;
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+}
+
+#day-by-day {
+	margin-left: -20px;
+}
+
+#day-by-day #individual-day {	
+	position: relative;
+	display: inline-block;
+	width: 280px;
+	height: 230px;
+	padding-left: -20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+#day-by-day #individual-day ul .schedule-day {
+	font-family: "Oswald", sans-serif;
+	color: rgb(3,101,138);
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+#day-by-day #individual-day ul .schedule-name {
+	font-family: "Oswald", sans-serif;
+	color: black;
+	font-weight: 400;
+	height: 30px;
+	font-size: 16px;
+}
+
+#day-by-day #individual-day ul .schedule-description {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+	min-height: 100px;
+	display: block;
+	width: 270px;
+}
+
+
+#day-by-day #individual-day #agenda {
+	list-style-type: disc;
+	padding-left: 15px;
+	text-indent: 1px;
+	font-size: 14px;
+}
+
+#day-by-day #individual-day #agenda li {
+	font-family: "Roboto", sans-serif;
+	font-weight: 200;
+	color: black;
+	font-size: 14px;
+	letter-spacing: 0px;
+}
+
+#about-haim {
+	width: 1175px;
+	height: 400px;
+	background-color: black;
+	bottom-padding: 0;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+#about-haim #column-left {
+	position: relative;
+	float: left;
+	width: 450px;
+}
+
+#about-haim img {
+	margin-top:15px;
+	margin-bottom: 0px;
+	vertical-align: bottom;
+}
+
+#about-haim #column-right {
+	position: relative;
+	width: 710px;
+	float: left;
+}
+
+#about-haim h6 {
+	font-size: 54px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	color: white;
+}
+
+#about-haim p {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	margin-top: 10px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.closing-lines {
+	position: relative;
+	top: 30px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: "Oswald", sans-serif;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	font-weight: 400;
+}
+
+
